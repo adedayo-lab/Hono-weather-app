@@ -24,15 +24,18 @@ git clone GitHub.com/adedayo-lab/Hono-weather-app
 2. Things to put into consideration
 
 ```
+
 Dependency	                        Purpose
 Hono v2.2.0               	        Web framework for routing
 Hono Middleware (serve static)	      Serves static files (CSS, images)
 OpenWeatherMap API	                Fetches real-time weather data
 Google Fonts (Poppins)            	Improves UI styling
+
+
 ```
 
 
-## Running the Project
+# Running the Project
 
 Start the server by running:
 
@@ -74,9 +77,6 @@ Fetches weather details for a city
 
 ```
 
-### Testing the API 
-
-You can test the API using cURL:
 
 ```bash
 curl -X GET http://localhost:8000/api/weather/Lagos
@@ -107,8 +107,6 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 
 
 ```
-
-
 
 ## Error Responses
 

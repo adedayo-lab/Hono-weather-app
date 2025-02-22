@@ -101,8 +101,7 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 │   │   ├── wind.png  
 │   ├── 📄 weather_Fav.gif      
 │── 📄 app.ts                    
-│── 📄 import_map.json          # Import map file for module aliases  
-│── 📄 README.md                 
+│── 📄 import_map.json          
 │── 📄 deno.json 
 │── 📄 deno.lock  
 │── 📄 WebAppScreenshot.png                
@@ -111,7 +110,7 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 ```
 
 
-###  Furture Features for version 2.1.0
+###  Future Features for version 2.1.0
 
 - CRUD operations for books
 - TypeScript support

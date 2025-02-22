@@ -109,14 +109,6 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 ```
 
 
-###  Future Features for version 2.1.0
-
-- CRUD operations for books
-- TypeScript support
-- Error handling
-- CORS enabled
-- In-memory data storage
-- RESTful API design
 
 ## Error Responses
 

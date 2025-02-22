@@ -1,7 +1,7 @@
 
 # Real-Time Weather Update with HONO
 
-A simple web application that provides real-time weather updates based on user-inputted Location, Country or city names.
+A simple web application that provides real-time weather updates based on user-inputted Location, Country, or city names.
 ## Project Screenshot
 ![Weather App Screenshot](WebAppScreenshot.png)
 
@@ -18,16 +18,15 @@ A simple web application that provides real-time weather updates based on user-i
 1. Clone full repository:
 
 ```bash
-git clone GitHub.com/adedayo-lab/Deno-project
-cd Hono-weather-app
+git clone GitHub.com/adedayo-lab/Hono-weather-app
 ```
 
-2. Thing to put into consideration
+2. Things to put into consideration
 
 ```
 Dependency	                        Purpose
 Hono v2.2.0               	        Web framework for routing
-Hono Middleware (serveStatic)	      Serves static files (CSS, images)
+Hono Middleware (serve static)	      Serves static files (CSS, images)
 OpenWeatherMap API	                Fetches real-time weather data
 Google Fonts (Poppins)            	Improves UI styling
 ```
@@ -101,8 +100,7 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 │   │   ├── wind.png  
 │   ├── 📄 weather_Fav.gif      
 │── 📄 app.ts                    
-│── 📄 import_map.json          # Import map file for module aliases  
-│── 📄 README.md                 
+│── 📄 import_map.json          
 │── 📄 deno.json 
 │── 📄 deno.lock  
 │── 📄 WebAppScreenshot.png                
@@ -111,7 +109,7 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 ```
 
 
-###  Furture Features for version 2.1.0
+###  Future Features for version 2.1.0
 
 - CRUD operations for books
 - TypeScript support

@@ -18,8 +18,7 @@ A simple web application that provides real-time weather updates based on user-i
 1. Clone full repository:
 
 ```bash
-git clone GitHub.com/adedayo-lab/Deno-project
-cd Hono-weather-app
+git clone GitHub.com/adedayo-lab/Hono-weather-app
 ```
 
 2. Things to put into consideration

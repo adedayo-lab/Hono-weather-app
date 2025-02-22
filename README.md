@@ -1,9 +1,9 @@
 
 # Real-Time Weather Update with HONO
 
-A simple web application that provides real-time weather updates based on user-inputted Location, Country or city names.
+A simple web application that provides real-time weather updates based on user-inputted Location, Country, or city names.
 ## Project Screenshot
-![Weather App Screenshot](WebAppScreenshot.png)
+![Weather App Screenshot](Hono-weather-app/WebAppScreenshot.png)
 
 ## Prerequisites
 
@@ -22,12 +22,12 @@ git clone GitHub.com/adedayo-lab/Deno-project
 cd Hono-weather-app
 ```
 
-2. Thing to put into consideration
+2. Things to put into consideration
 
 ```
 Dependency	                        Purpose
 Hono v2.2.0               	        Web framework for routing
-Hono Middleware (serveStatic)	      Serves static files (CSS, images)
+Hono Middleware (serve static)	      Serves static files (CSS, images)
 OpenWeatherMap API	                Fetches real-time weather data
 Google Fonts (Poppins)            	Improves UI styling
 ```

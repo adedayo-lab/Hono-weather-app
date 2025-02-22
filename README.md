@@ -82,7 +82,7 @@ Fetches weather details for a city
 curl -X GET http://localhost:8000/api/weather/Lagos
 ```
 
-### Project Structure
+# Project Structure
 
 ```
 📂 Hono-weather-app  
@@ -107,20 +107,3 @@ curl -X GET http://localhost:8000/api/weather/Lagos
 
 
 ```
-
-## Error Responses
-
-The API returns appropriate HTTP status codes:
-
-- 200: Success
-- 201: Resource created
-- 404: Resource not found
-- 400: Bad request
-
-#  Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request

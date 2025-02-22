@@ -3,7 +3,7 @@
 
 A simple web application that provides real-time weather updates based on user-inputted Location, Country, or city names.
 ## Project Screenshot
-![Weather App Screenshot](Hono-weather-app/WebAppScreenshot.png)
+![Weather App Screenshot](WebAppScreenshot.png)
 
 ## Prerequisites
 

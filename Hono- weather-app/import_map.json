@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "hono": "https://deno.land/x/hono/mod.ts",
+        "dotenv": "https://deno.land/x/dotenv/mod.ts"
+    }
+}
